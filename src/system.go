@@ -134,7 +134,7 @@ func loadSettings() (settings SettingsStruct, err error) {
 	defaults["buffer.size.kb"] = 1024
 	defaults["buffer.timeout"] = 500
 	defaults["cache.images"] = false
-	defaults["epgSource"] = "PMS"
+	defaults["epgSource"] = "XEPG"
 	defaults["ffmpeg.options"] = System.FFmpeg.DefaultOptions
 	defaults["vlc.options"] = System.VLC.DefaultOptions
 	defaults["files"] = dataMap
